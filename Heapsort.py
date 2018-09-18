@@ -32,7 +32,6 @@ def heapify(a):
   while i >= 0:
     sift_down(a, i, max)
     i -= 1
-
 def heapsort(a):
   heapify(a)
   j = len(a) - 1
