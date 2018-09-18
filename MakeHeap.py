@@ -1,5 +1,5 @@
 import random
-
+import numpy as np
 def Maxheapify(a): # only care about node which has a child
     i=(len(a)//2)-1
     max=len(a)
